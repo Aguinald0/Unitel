@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --amarelo-: #e1c366;
+    --azul-escuro-:#1e2d42 ;
+    --azul-carregado-:#27558a;
+    --azul-:#2d78bd;
+    --azul-claro-:#4ea4d7;
+}
+
+body{
+    background-image: url('imagens/impaper.jpg');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color:#27558a;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #e1c366 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler
+{
+outline: none !important;
+}
+
+p
+{
+    font-weight: 600;
+}
